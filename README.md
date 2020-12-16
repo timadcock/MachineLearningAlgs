@@ -5,7 +5,7 @@
 
 ## Perceptron
 The ML.py contains a perceptron for supervised learning of binary classifiers.
-
+f
 To load the perceptron into the python file you plan on using it in simply import it from ML.py, make sure you have ML.py in the same folder as the file you want to import it to.
 
 Example:
@@ -60,7 +60,7 @@ If running the perceptron without calling the plot_decision_regions or any print
 
 If ran correctly the output from plot_decision_regions should look like:
 
-![plot_decision_regions output](docs/img1)
+![plot_decision_regions output](Docs/img1)
 
 
 
@@ -140,7 +140,7 @@ The Linear Regression does not take any parameters. The Linear Regression used t
 
 I tested this using the IRIS dataset. I compared my algorithm with Excels and found that the two algorithms are very close.
 
-![plot_regression_line output](docs/img2.png)
+![plot_regression_line output](Docs/img2.png)
 
 with weights:
  ```Python
@@ -149,7 +149,7 @@ with weights:
 where the first number corresponds with the intercept and the second the weight given to the Sepal Length.
 
 Excel regression:
-![plot_regression_line output](ocs/img4.png)
+![plot_regression_line output](Docs/img4.png)
 
 This is from the following code:
 
@@ -215,7 +215,7 @@ There are no arguments on creation of a Decision Stump. The decision stump itera
 I tested this on the IRIS dataset, I started with one variable and slowly iterated it through them all. I found that When testing for versicolor or setosa and leaving virginica out, I found that virginica would lead to none of the results being correct, the same thing happened with versicolor, but this did not happened with setosa. This can be explained since setosa is very different from versicolor and virginica.
 
 
-![Iris Data combinations](docs/img3.png)
+![Iris Data combinations](Docs/img3.png)
 
 [I got this here](https://upload.wikimedia.org/wikipedia/commons/5/56/Iris_dataset_scatterplot.svg)
 
@@ -394,7 +394,7 @@ I received the output:
 Logistical Regression Error:  6
 ```
 
-![Logistical Regression](docs/img5.png)
+![Logistical Regression](Docs/img5.png)
 
 
 This is from the following code:
@@ -1035,7 +1035,7 @@ The SVM can be used with plot_decision_regions similarly to the Perceptron.
 
 If ran correctly the output from plot_decision_regions should look like:
 
-![plot_decision_regions output](docs/img6.png)
+![plot_decision_regions output](Docs/img6.png)
 
 Note: The line that separates the two groups should be very similar to the Perceptron.
 
