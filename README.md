@@ -60,7 +60,7 @@ If running the perceptron without calling the plot_decision_regions or any print
 
 If ran correctly the output from plot_decision_regions should look like:
 
-![plot_decision_regions output](Docs/img1)
+![plot_decision_regions output](Docs/img1.png)
 
 
 
