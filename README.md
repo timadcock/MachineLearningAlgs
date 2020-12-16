@@ -1,3 +1,6 @@
+# Description
+This is my "Portfolio" for my Machine Learning Class that I took Fall 2020. 
+
 # ML Portfolio
 ---
 
